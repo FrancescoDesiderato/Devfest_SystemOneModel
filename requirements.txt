@@ -1,0 +1,4 @@
+gliner2[local]==2.1.0
+graphviz==0.21
+streamlit==1.66.1
+requests==2.31.0

@@ -1,0 +1,53 @@
+{
+  "model": "gpt-6-luna",
+  "input": "È la terza volta che vi contatto. Il pagamento risulta doppio e sono davvero stufo!",
+  "questions": [
+    {
+      "type": "choice",
+      "name": "department",
+      "instructions": "A quale reparto deve essere assegnato il ticket? Scegli in base al problema principale descritto, non al tono emotivo del cliente.",
+      "choices": [
+        {
+          "value": "fatturazione",
+          "description": "Problemi relativi a pagamenti, addebiti duplicati, fatture e rimborsi."
+        },
+        {
+          "value": "supporto_tecnico",
+          "description": "Problemi di funzionamento del prodotto, errori software e malfunzionamenti tecnici."
+        },
+        {
+          "value": "vendite",
+          "description": "Richieste commerciali, informazioni sui prodotti, preventivi e acquisti."
+        }
+      ]
+    },
+    {
+      "type": "predicate",
+      "name": "customer_is_frustrated",
+      "instructions": "Il cliente esprime frustrazione nel messaggio? Considera segnali espliciti di insoddisfazione, irritazione o esasperazione. Il solo fatto di segnalare un problema non è sufficiente."
+    },
+    {
+      "type": "score",
+      "name": "frustration",
+      "instructions": "Quanto è frustrato il cliente? Valuta esclusivamente la frustrazione espressa nel testo, non la gravità economica o tecnica del problema. Usa i livelli in ordine crescente.",
+      "levels": [
+        {
+          "label": "Calmo",
+          "description": "Tono neutro o cortese, senza segnali di irritazione o insoddisfazione."
+        },
+        {
+          "label": "Infastidito",
+          "description": "Lieve irritazione o disappunto, senza una marcata espressione di frustrazione."
+        },
+        {
+          "label": "Frustrato",
+          "description": "Insoddisfazione esplicita e marcata, ma senza forti espressioni di esasperazione."
+        },
+        {
+          "label": "Molto arrabbiato",
+          "description": "Forte esasperazione o rabbia, espressa con formule come 'sono davvero stufo', proteste accese o espressioni equivalenti."
+        }
+      ]
+    }
+  ]
+}

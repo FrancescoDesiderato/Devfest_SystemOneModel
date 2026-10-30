@@ -1,0 +1,14 @@
+=== TESTO 01 ===
+Secondo la nostra policy interna sulle trasferte, quali documenti devo presentare per richiedere il rimborso di un viaggio di lavoro?
+
+=== TESTO 02 ===
+Qual è il tasso di cambio attuale EUR/USD? Indica anche la fonte e la data e ora della quotazione.
+
+=== TESTO 03 ===
+Un hotel costa 145 EUR a notte. Calcola il totale per 4 notti, includendo una tassa di soggiorno di 6 EUR a notte e uno sconto del 10% applicato soltanto al prezzo della camera.
+
+=== TESTO 04 ===
+Puoi verificare se rientra nel mio budget e prenotare per me l’opzione migliore?
+
+=== TESTO 05 ===
+Sto organizzando una trasferta di tre notti a Londra. Il preventivo dell’hotel è di 180 GBP a notte, con tutte le tasse incluse. Prima consulta la nostra policy interna sulle trasferte per trovare il massimale rimborsabile per notte e verificare se tale limite si applica prima o dopo le commissioni di conversione valutaria. Poi cerca un tasso di cambio GBP/EUR aggiornato e calcola il costo totale dell’hotel in EUR, includendo una commissione di conversione del 2% applicata all’importo convertito. Confronta il costo ammissibile per notte con il massimale della policy e calcola sia l’importo totale rimborsabile sia la quota a mio carico. Se la policy non specifica come trattare le commissioni di conversione, chiedimi un chiarimento invece di presumere una regola. Non effettuare alcuna prenotazione.

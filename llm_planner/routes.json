@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "id": "knowledge_base",
+      "description": "Consulta documenti e policy aziendali per rispondere a richieste che non richiedono informazioni esterne aggiornate o calcoli."
+    },
+    {
+      "id": "web_search",
+      "description": "Cerca informazioni esterne aggiornate, come tassi di cambio, prezzi o notizie, indicando le fonti."
+    },
+    {
+      "id": "calculator",
+      "description": "Esegue calcoli quando tutti i valori e le regole necessari sono già presenti nella richiesta."
+    },
+    {
+      "id": "clarification",
+      "description": "Chiede un chiarimento quando mancano informazioni essenziali o la richiesta è ambigua e non è possibile procedere in modo affidabile."
+    }
+  ]
+}
